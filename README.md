@@ -6,7 +6,6 @@ A tiny FastAPI app that exposes two LLM endpoints to demonstrate prompt-injectio
 
 /secure/generate → Hardened mock with a built-in sanitizer (normalizes text, strips zero-width chars, enforces a template, and blocks common jailbreak phrases).
 
-Use it in your BSides demo to show before vs after.
 
 ✨ What it shows
 
