@@ -66,7 +66,6 @@ Expected response:
 
 { "result": "[Guard]: Refused — Blocked by rule: /ignore\\s+previous\\s+instructions/" }
 
-🧪 Suggested Live Demo Flow
 
 Start server → uvicorn mock_llm:app --reload --port 8010
 
