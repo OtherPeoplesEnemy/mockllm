@@ -67,15 +67,5 @@ Expected response:
 { "result": "[Guard]: Refused — Blocked by rule: /ignore\\s+previous\\s+instructions/" }
 
 
-Start server → uvicorn mock_llm:app --reload --port 8010
-
-Run a safe prompt → returns a benign answer.
-
-Run injection on /vuln/generate → shows secret leakage.
-
-Run same injection on /secure/generate → shows blocked response.
-
-Explain takeaway: Sanitization helps stop basic indirect prompt injection.
-
 📝 License
 📝 License MIT 
